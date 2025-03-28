@@ -101,7 +101,7 @@ while running:
             elif mode == "rhombus":
                 draw_rhombus(event.pos)
     
-    pygame.display.update()
+    pygame.display.update() 
     clock.tick(60)
 
 pygame.quit()
