@@ -99,7 +99,7 @@ while running:
     screen.blit(score_text, (WIDTH - 100, 10))
     
     pygame.display.update()
-    clock.tick(30)
+    clock.tick(60)
 
 pygame.quit()
 
